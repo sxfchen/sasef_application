@@ -243,7 +243,7 @@ try:
             st.markdown("[Environmental protection resources](%s)" % url1)
             st.markdown("[Distress resources](%s)" % url2)
         elif int(rounded_final) == 0:
-            st.write("No change")
+            st.write("Based on exposure to environmental pollution and psychological distress, your child likely will not have an increased risk of atopy.")
         else:
             st.write(" ")
         
@@ -265,7 +265,7 @@ try:
             st.markdown("[Environmental protection resources](%s)" % url3)
             st.markdown("[Distress resources](%s)" % url4)
         elif int(rounded_final) == 0:
-            st.write("No change")
+            st.write("Based on exposure to environmental pollution and psychological distress, your child does not have an increased risk of atopy.")
         else:
             st.write(" ")
 
