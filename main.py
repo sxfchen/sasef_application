@@ -14,7 +14,7 @@ final_or = 1
 st.title("Your Child's Health Outcome")
 st.write("Enter some basic information about yourself to determine the likelihood of your child developing allergic diseases in adolescence.")
 
-st.text("Check the box that applies. For questions relating to mental state, check yes if you felt your health was impacted by distress.")
+st.write("Check the box that applies. For questions relating to mental state, check yes if you felt your health was impacted by distress.")
 
 time = st.radio(
     "Has your child been born?",
